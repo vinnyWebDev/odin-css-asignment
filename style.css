@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', arial;
+    margin: 0px;
+}
+
+.header, .hero{
+    background-color: #1F2937;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.headerLogo{
+    color: #f9faf8;
+    font-size: 24px;
+    margin-left: 15%;
+}
+
+.headerLinks{
+    margin-right: 15%;
+    font-size: 18px;
+}
+
+.headerLinks ul{
+    display: flex;
+}
+
+.headerLinks a{
+    text-decoration: none;
+    color: #E5E7EB;
+    margin-left: 15px;
+}
+
+.headerLinks li{
+    list-style: none;
+}
+
+.leftHero h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.subtext {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.heroImg{
+    width: 450px;
+    height: 250px;
+}
+
+.leftHero{
+    margin-left: 15%;
+}
+
+.rightHero{
+    margin-right: 15%;
+}
