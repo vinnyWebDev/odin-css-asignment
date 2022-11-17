@@ -52,12 +52,12 @@ body {
     padding-bottom: 50px;
 }
 
-.leftHero{
+.leftHero {
     margin-bottom: auto;
     max-width: 35%;
 }
 
-.leftHero h1{
+.leftHero h1 {
     margin-top: 0;
     margin-bottom: 5px;
 }
@@ -67,7 +67,7 @@ body {
     height: 250px;
 }
 
-.heroBtn{
+.heroBtn {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 10px 20px 10px 20px;
@@ -76,3 +76,74 @@ body {
     border: none;
     border-radius: 10px;
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20% 100px 20%;
+}
+
+.infoHeader{
+    color: #1F2937;
+    font-size: 35px;
+}
+
+.imagesContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.buildingsImg{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.infoImg {
+    width: 170px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info p {
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.quotation{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20% 100px 20%;
+}
+
+.attribute{
+ display: flex;
+ justify-content: flex-end;
+ font-size: 22px;
+ font-weight: bold;
+}
+
+.attribute p{
+    margin: 0;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937; 
+}
+
+.quoteContainer{
+    max-width: 75%;
+}
+
+.quote p{
+    margin: 0;
+}
+
+
